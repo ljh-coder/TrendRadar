@@ -25,7 +25,7 @@ crawler:
 
 # 推送模式选择
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "current" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -78,18 +78,16 @@ weight:
 platforms:
   - id: "toutiao"
     name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
   - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
-  - id: "thepaper"
-    name: "澎湃新闻"
+    name: "华尔街见闻 最热"
+  - id: "github"
+    name: "GitHub"
+  - id: "v2ex"
+    name: "V2EX"
+  - id: "cankaoxiaoxi"
+    name: "参考消息"
   - id: "bilibili-hot-search"
     name: "bilibili 热搜"
-  - id: "cls-hot"
-    name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
   - id: "tieba"
     name: "贴吧"
   - id: "weibo"
@@ -98,3 +96,5 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
+  - id: "hupu"
+    name: "虎扑"
